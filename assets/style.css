@@ -1,0 +1,97 @@
+/* * {
+  box-sizing: border-box;
+  text-align: center;
+} */
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.nav {
+  background: #fff;
+  height: 100px;
+  position: relative;
+  padding: 20px;
+  border: 10px;
+  margin: 0 auto;
+  width: 960px;
+}
+ul.navbar {
+  max-width: 100%;
+  list-style-type: none;
+  float: right;
+  margin-right: 50px;
+}
+
+li {
+  display: inline-block;
+  max-width: 30%;
+  padding: 20px;
+  margin: 10px;
+  color: #777;
+}
+li a {
+  text-decoration: none;
+}
+
+li a:hover {
+  background: #4aaaa5;
+}
+
+.logo {
+  background: #4aaaa5;
+  padding: 10px;
+  border: 10px;
+  margin: 10px;
+  display: inline-block;
+  color: #fff;
+  position: absolute;
+  top: 65%;
+  left: 10%;
+  transform: translate(-10%, -65%);
+  text-transform: uppercase;
+}
+
+.main-section {
+  width: 960px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 5px;
+}
+img.wrap {
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin-right: 15px;
+}
+
+/* Contact page style*/
+.contact-container {
+  width: 960px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+/* Portfolio page style*/
+.portfolio-container {
+  width: 960px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
