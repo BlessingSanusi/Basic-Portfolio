@@ -146,6 +146,11 @@ input[type="submit"]:hover {
   background-color: #4aaaa5;
 }
 
+.content img {
+  width: 200px;
+  height: 200px;
+}
+
 /* Portfolio page style*/
 
 .footer {
